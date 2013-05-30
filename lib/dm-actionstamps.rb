@@ -8,7 +8,7 @@ require 'pathname'
 require 'dm-core'
 
 # Require plugin-files
-require Pathname(__FILE__).dirname.expand_path / 'dm-actionstamps' / 'actionstamps.rb'
+require 'dm-actionstamps/actionstamps.rb'
 
 DataMapper::Model.append_extensions(DataMapper::Actionstamps)
 # DataMapper::Model.append_inclusions(DataMapper::Actionstamps)
