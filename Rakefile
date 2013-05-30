@@ -6,10 +6,10 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "dm-actionstamps"
     gem.summary = %Q{A DataMapper plugin that automatically adds/updates the created_?, updated_? fields of your models.}
-    gem.description = %Q{A DataMapper plugin that works similar to the dm-timestamps in that it 'automagically' adds/updates the created_?, updated_? fields of your models.}
-    gem.email = "kematzy@gmail.com"
-    gem.homepage = "http://github.com/kematzy/dm-actionstamps"
-    gem.authors = ["kematzy"]
+    gem.description = %Q{A few fixes to kematzy's dm-actionstamps DataMapper plugin that works similar to the dm-timestamps in that it 'automagically' adds/updates the created_?, updated_? fields of your models.}
+    gem.email = "joelwreed@gmail.com"
+    gem.homepage = "http://github.com/joelwreed/dm-actionstamps"
+    gem.authors = ["joelwreed", "kematzy"]
     gem.add_dependency "dm-core", ">= 1.0"
     gem.add_development_dependency "rspec", ">= 1.3.0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
